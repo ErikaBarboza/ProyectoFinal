@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url(../fonts/Fira/FiraSans-Black.ttf);
+}
+*{
+    margin: 00px;
+    padding: 10px;
+  
+}
+
+h1{
+    color: #7A7A79;
+}
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 1.8;
+    color: #7A7A79;
+    align-items: center;
+    display: flex;
+}
+
+section{
+    background-color: #F6D050;
+}
+header{
+  
+    align-content: center;
+    text-align: center;
+
+}
+header .contenedorPadre nav ul{
+    list-style: none;
+    display: inline;
+    color: #7A7A79;
+    font-size: 20px;
+
+
+}
+
+div .DiarioParejas img{
+    align-content: center;
+    align-items: center;
+    background-color: #F6D050;
+
+}
