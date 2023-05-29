@@ -6,49 +6,238 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../ProyectoFinal/styles/tarjeteria.css">
+    <link rel="shortcut icon" href="../ProyectoFinal/images/logo-buscador.png" type="image/x-icon">
     <title>Tarjeteria Digital</title>
 </head>
-<header>
-    <div class="contenedorPadre">
 
+<header>
+
+    <section class="inicio">
         <div class="logo">
-            <img src="../ProyectoFinal/images/logofondo.jpeg" alt="Logo" width="300px" height="300px">
+            <img src="../ProyectoFinal/images/logofondo.jpeg" alt="Logo" width="80px" height="80px">
         </div>
 
         <div class="slogan">
-            <h1>Tarjeteria, diseño y mucho mas...</h1>
+            <h1>Tarjeteria Digital</h1>
         </div>
 
+    </section>
+    <nav>
+        <ul>
+            <li> <a href="#">Inicio</a></li>
+            <li> <a href="#nosotros">Nosotros</a></li>
+            <li> <a href="#catalogo">Catálogo</a></li>
+            <li> <a href="#servicios">Servicios</a></li>
+            <li> <a href="#contactame">Contáctenos</a></li>
+        </ul>
+    </nav>
 
-        <div>
-            <nav>
-                <ul> <a href="#">Inicio</a></ul>
-                <ul> <a href="../ProyectoFinal/html/Nosotros.html">Nosotros</a></ul>
-                <ul> <a href="../ProyectoFinal/html/Catalogo.html">Catalogo</a></ul>
-                <ul> <a href="../ProyectoFinal/html/Servicios.html">Servicios</a></ul>
-                <ul> <a href="../ProyectoFinal/html/Contactenos.html">Contactenos</a></ul>
-            </nav>
-        </div>
 
-    </div>
+
+
+
 </header>
 
 <body>
-    <section>
-        <div class="DiarioParejas">
-            <img src="../ProyectoFinal/images/planificador azul.jpeg" alt="Diario parejas">
-        </div>
-    </section>
-    <section>
-        <div>
-            <p class="parrafos"><b>Detalles especiales, para tus personas favoritas</b></p>
-            <p class="parrafos">Diarios, planificadores, agendas 100% personalizadas, totalmente hechas a mano</p>
+
+    <section id="nosotros">
+        <div class="contenedor-text-lau">
+
+            <h2 class="main-tittle">Diseñadora y fundadora</h2><br>
+
+            <p>
+                Laura Barboza, tiene mas de 17 años de experiencia en distintas areas del diseño, ha laborado en
+                revistas y adquirido diversos conocimentos en retoque fotográfico, montaje, arte final, realización de
+                empaques y etiquetas de producto. <br> Recientemente se graduó como restauradora y diseñadora de
+                empastes de
+                libros ampliando sus capacidades para crear y hacer lo que ama. Ahi nace Tarjeteria Digital, una PYME
+                que pretende ofrecer detalles únicos para personas únicas.
+            </p>
+            <a class="btn red" href="https://www.linkedin.com/in/laura-barboza-rojas-00b524144">Perfil
+                profesional</a><br>
+
 
         </div>
+        <div class="contenedor-foto-lau">
+            <img src="../ProyectoFinal/images/lau3.jpg" alt="Soy Lau">
+            <div class="stand-1"></div>
+            <div class="stand-2"></div>
+        </div>
+
     </section>
+
+
+
+    <section id="Catalogo">
+        <div class="titulo-de-seccion">
+            <div class="contenedor-titulo">
+                <h2 class="main-tittle">Catálogo</h2>
+            </div>
+        </div>
+        <section id="catalogo">
+
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <main id="carousel">
+                <div class="item">
+                    <img src="./images/planificador azul.jpeg" alt="Planificador azul" height="500px" width="400px">
+                </div>
+                <div class="item">
+                    <img src="./images/planificador.jpeg" alt="recetario" height="500px" width="400px">
+                </div>
+                <div class="item">
+                    <video src="./videos/bigrafia.mp4" height="500px" width="400px" controls autoplay muted>Biografia
+                        Madre</video>
+                </div>
+                <div class="item">
+                    <video src="./videos/mascotas.mp4" height="500px" width="400px" controls autoplay
+                        muted>Mascotas</video>
+                </div>
+                <div class="item">
+                    <video src="./videos/mascotas2.mp4" height="500px" width="400px" controls autoplay
+                        muted>Mascotas</video>
+                </div>
+            </main>
+
+        </section>
+
+        <div class="content-servicios-text">
+
+            <p>Nuestros encudernados artesanales están cargados de creatividad, trabajamos con los mejores materiales y
+                los mejores acabados:</p>
+            <br>
+
+            <ol>
+                <li>Agendas</li>
+                <li>Diarios de pareja</li>
+                <li>Álbumnes de fotos</li>
+                <li>Recetarios</li>
+                <li>Libros</li>
+            </ol>
+
+        </div>
+
+    </section>
+
+
+
+
+    <div class="titulo-de-seccion">
+        <div class="contenedor-titulo">
+            <h2 class="main-tittle">Servicios</h2>
+        </div>
+    </div>
+
+
+
+    <section id="servicios">
+        <div class="contenedor-cards main-container">
+            <div class="cards">
+                <h4>Diseño Grafico</h4><br>
+
+                <p>Creacion de material grafico y publicitario. Elaboracion de catalogos, revista, flyers, banners,
+                    brochure, Imagen corporativa. </p>
+
+            </div>
+            <div class="cards">
+                <h4>Fotografía</h4><br>
+
+                <p>Creación. edición y retoque fotográfico para productos, catálogos, sesiones fotográficas y eventos.
+                </p>
+
+            </div>
+            <div class="cards">
+                <h4>Manejo de Redes Sociales</h4>
+
+                <p>Creación y elaboración de material para páginas de redes sociales, Instagram, Facebook, TiK-tok.
+                    Administración y asesoria de páginas </p>
+
+            </div>
+
+            <div class="cards">
+                <h4>Servicios de impresión</h4><br>
+
+                <p>Impresión en pequeño y gran formato con diferentes sustratos, segun la necesidad del cliente.</p>
+
+            </div>
+
+
+    </section>
+
+
+
+    <div class="titulo-de-seccion">
+        <div class="contenedor-titulo">
+            <h2 class="main-tittle">Contáctenos</h2><br>
+        </div>
+        <div class="contenedor-info-contacto">
+            <p>
+                Para cotizaciones <br>
+                Puede localizarnos en nuestras oficinas indicadas en la siguiente dirección, mediante los teléfonos
+                fijos o bien escribiéndonos al correo electrónico y redes sociales. Para nosotros será un gusto
+                atenderle.
+
+            </p>
+            <br>
+            <p>506-7047 8188 <br>
+                tarjeteriadigital32@gmail.com <br>
+                25 metros al Este de la Escuela La Sabana, San Ramón, Alajuela.
+
+            </p>
+
+        </div>
+    </div>
+
+    <section id="contactame">
+
+
+        <form action="">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <input type="email" id="correo" name="correo" placeholder="Correo">
+            <textarea name="mensaje" id="mensaje" rows="5" placeholder="Mensaje"> </textarea>
+
+        </form>
+        <div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d709.5999602222267!2d-84.47426013653718!3d10.091771789230359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1685288808576!5m2!1ses-419!2scr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
 
 
 </body>
-<footer>&COPY;Erika B</footer>
+<footer id="redes">
+    <h4>Busquenos tambien en nuestras redes sociales</h4>
+    <div class="social-media">
+        <div class="social-media-box">
+            <a href="https://www.facebook.com/TarjeteriaDigitalyDieseno?mibextid=ZbWKwL">
+                <img src="./images/facebook.png" alt="Icono de Facebook">
+            </a>
+
+        </div>
+        <div class="social-media-box">
+            <a href="https://instagram.com/tarjeteria_digital?igshid=MmJiY2I4NDBkZg==">
+                <img src="./images/instagram.png" alt="Icono de Instagram">
+            </a>
+
+        </div>
+        <div class="social-media-box">
+            <a href="https://wa.me/qr/5RYE2OSVEHGAG1">
+                <img src="./images/whatsapp.png" alt="Icono de Whatsapp">
+            </a>
+
+        </div>
+
+    </div>
+    <p>Todos los derechos reservados &copy; <strong>Tarjeteria Digital S.A</strong></p>
+
+</footer>
 
 </html>
